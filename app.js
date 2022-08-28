@@ -20,3 +20,8 @@ app.use(routerUsers)
 app.listen(port,() => {
 console.log(`jalan di port ${port}`)
 })
+
+/**
+ * ude kalo ada error gitu tinggal uninstall aja node modules nya
+ * oke yah
+ */
