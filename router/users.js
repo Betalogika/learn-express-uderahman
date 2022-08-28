@@ -8,7 +8,7 @@ let users = [
   
  router.route('/users')
   .get ((req, res) => {
-    if(user.lenght > 0) {
+    if(users.lenght > 0) {
         res.json ({
           status : true,
           data : users,
