@@ -17,6 +17,6 @@ app.get('/about', (req, res) => {
 
 app.use(routerUsers)
 
-app.listen(port, () => {
+app.listen(port,() => {
 console.log(`jalan di port ${port}`)
 })
