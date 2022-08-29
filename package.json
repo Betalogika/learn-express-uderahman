@@ -1,11 +1,7 @@
 {
-  "name": "udeexpressjs",
+  "name": "express",
   "version": "1.0.0",
-<<<<<<< HEAD
   "description": "",
-=======
-  "description": "hadoh kamu ini",
->>>>>>> 4ca427a9767ff377c5937a3d3587ec9d5d2c03ea
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,23 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/syamsulapp/udeExpressJS.git"
   },
-<<<<<<< HEAD
   "author": "",
-=======
-  "author": "ude",
->>>>>>> 4ca427a9767ff377c5937a3d3587ec9d5d2c03ea
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/syamsulapp/udeExpressJS/issues"
   },
   "homepage": "https://github.com/syamsulapp/udeExpressJS#readme",
   "dependencies": {
-<<<<<<< HEAD
     "body-parser": "^1.20.0",
-    "express": "^4.18.1",
-    "nodemon": "^2.0.19"
-=======
     "express": "^4.18.1"
->>>>>>> 4ca427a9767ff377c5937a3d3587ec9d5d2c03ea
   }
 }
