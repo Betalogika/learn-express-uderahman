@@ -12,7 +12,16 @@ app.get('/', (req, res) => {
 
 app.get('/about', (req, res) => {
   res.send ( 'this about')
+
 })
+// router.route('/users')
+// .get (req, res) => {
+// res.send ('')
+// }
+// .put (req, res) => {
+//   res.send ('')
+// }
+
 
 
 app.use(routerUsers)
