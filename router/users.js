@@ -10,7 +10,7 @@ import {
 } from '../controller/UsersController.js'
 const router = express.Router()
 
-router.get('/users', getUsers);
+router.get('/users', getUsers );
 router.get('/users/:id', getById);
 router.post('/users', postUsers); 
 router.patch('/users/:id', UpdateUsers); 
