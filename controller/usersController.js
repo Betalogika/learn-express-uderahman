@@ -10,6 +10,22 @@ export const getUsers = async(req, res) => {
   }
 
 }
+
+export const getById = async(req, res) => {
+  try {
+    const respon = await User.findOne({
+        where:{
+          id: req.params.id
+        }
+    });
+    res.status (200).json(respon)
+  }
+  catch (error) {
+    console.log (error.message);
+  }
+
+}
+
 export const postUsers = async(req, res) => {
   try {
       await User.create(req.body);
