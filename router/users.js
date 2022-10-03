@@ -6,7 +6,7 @@ import {
     postUsers,
     UpdateUsers,
     deletUsers,
-    getById        
+    getById       
 } from '../controller/UsersController.js'
 const router = express.Router()
 
@@ -20,6 +20,20 @@ router.delete('/users/:id', deletUsers);
 
 export default router;
 
+// dengan menggunakan principle OOP
+// class usersroute extends express.Router{
+//     route () {
+//         return [
+//             router.get('/users', getUsers,),
+//             router.get('/users/:id', getById),
+//             router.post('/users', postUsers),
+//             router.patch('/users/:id', UpdateUsers),
+//             router.delete('/users/:id', deletUsers)
+              
+//         ]
+//     }
+// }
+// export default router;
 
 
 

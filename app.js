@@ -12,6 +12,16 @@ app.listen(port,() => {
 console.log(`jalan di port ${port}`)
 })
 
+//ini utk oop
+// class App extends Route
+// init() {
+//     app.use(express.json())
+//     app.use (UserRoute)
+//     app.listen(port,() => {
+//         console.log(`jalan di port ${port}`)
+// }
+// new App().init()
+
 
 
 
